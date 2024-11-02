@@ -1,7 +1,6 @@
 # responsive_and_adaptive_project
 
-A new Flutter project.
-
+It is a project to apply addaptive and responsive layout for mobiles, tablets and desktops.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
