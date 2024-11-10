@@ -9,6 +9,7 @@ class DashboardView extends StatelessWidget {
   Widget build(BuildContext context) {
     // toolbarHeight:
     return Scaffold(
+      backgroundColor: const Color(0xFFF7F9FA),
       appBar: MediaQuery.sizeOf(context).width < 900
           ? AppBar(
               title: const Text('DashBoard'),
