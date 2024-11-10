@@ -9,6 +9,11 @@ class DashboardDesktopLayout extends StatelessWidget {
     return const Row(
       children: [
         Expanded(child: CustomDrawer()),
+        Expanded(
+          child: Column(
+            children: [],
+          ),
+        ),
       ],
     );
   }
