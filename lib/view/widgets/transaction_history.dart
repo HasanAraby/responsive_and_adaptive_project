@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_and_adaptive_project/core/utils/app_text_styles.dart';
 import 'package:responsive_and_adaptive_project/view/widgets/transaction_history_header.dart';
+import 'package:responsive_and_adaptive_project/view/widgets/transaction_history_list_view.dart';
 
 class TransactionHistory extends StatelessWidget {
   const TransactionHistory({super.key});
@@ -17,6 +18,8 @@ class TransactionHistory extends StatelessWidget {
           style: AppTextStyles.styleMedium16
               .copyWith(color: const Color(0xFFAAAAAA)),
         ),
+        const SizedBox(height: 16),
+        const TransactionHistoryListView(),
       ],
     );
   }
