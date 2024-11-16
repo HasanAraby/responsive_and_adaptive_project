@@ -15,7 +15,7 @@ class TransactionHistory extends StatelessWidget {
         const SizedBox(height: 20),
         Text(
           '13 April 2022',
-          style: AppTextStyles.styleMedium16
+          style: AppTextStyles.styleMedium16(context)
               .copyWith(color: const Color(0xFFAAAAAA)),
         ),
         const SizedBox(height: 16),
