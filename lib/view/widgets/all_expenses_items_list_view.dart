@@ -36,6 +36,7 @@ class _AllExpensesItemsListViewState extends State<AllExpensesItemsListView> {
   @override
   Widget build(BuildContext context) {
     return Row(
+      // crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Expanded(
           child: GestureDetector(
@@ -49,7 +50,7 @@ class _AllExpensesItemsListViewState extends State<AllExpensesItemsListView> {
           ),
         ),
         const SizedBox(
-          width: 8,
+          width: 6,
         ),
         Expanded(
           child: GestureDetector(
@@ -63,7 +64,7 @@ class _AllExpensesItemsListViewState extends State<AllExpensesItemsListView> {
           ),
         ),
         const SizedBox(
-          width: 8,
+          width: 6,
         ),
         Expanded(
           child: GestureDetector(

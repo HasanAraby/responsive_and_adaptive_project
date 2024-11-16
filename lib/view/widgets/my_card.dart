@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:responsive_and_adaptive_project/core/utils/app_images.dart';
@@ -5,7 +7,6 @@ import 'package:responsive_and_adaptive_project/core/utils/app_text_styles.dart'
 
 class MyCard extends StatelessWidget {
   const MyCard({super.key});
-
   @override
   Widget build(BuildContext context) {
     return AspectRatio(
@@ -24,7 +25,7 @@ class MyCard extends StatelessWidget {
           children: [
             ListTile(
               contentPadding:
-                  const EdgeInsets.only(left: 31, right: 42, top: 16),
+                  const EdgeInsets.only(left: 31, right: 42, top: 12),
               title: Text(
                 'Name card',
                 style: AppTextStyles.styleRegular16(context).copyWith(
@@ -58,7 +59,7 @@ class MyCard extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(height: 26),
+            const Flexible(child: SizedBox(height: 26)),
           ],
         ),
       ),
